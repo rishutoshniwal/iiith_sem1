@@ -1,0 +1,1 @@
+1. Menu will be printed in each iteration so we can easily follow the flow of program

@@ -1,0 +1,330 @@
+*{
+ margin:0;
+ padding:0;
+}
+html{
+
+font-family:tahoma;
+font-size:72.5%
+}
+
+body {
+  
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+
+@viewport{
+zoom:1.0;
+width:extend-to-zoom;
+}
+
+@-ms-viewport{
+zoom:1.0;
+width:extend-to-zoom;
+}
+
+.float-child {
+	display: grid;
+    width: 40%;
+    float: left;
+	 padding-left: 12rem;
+   
+}  
+
+ul{
+list-style:none;
+height:auto;
+width:100%;
+position:fixed;
+
+background:crimson;
+
+text-align:center;
+box-shadow:0.2rem 0rem 0.5rem black;
+}
+ul li{
+
+text-align:center;
+display: inline-block;
+width:20%;
+
+}
+ul li a{
+color:white;
+text-decoration:none;
+font-size:2rem;
+padding:0.5rem;
+
+
+
+}
+
+
+ul li a:hover{
+background:white;
+color:blue;
+}
+
+
+
+  .column {
+  float: left;
+
+  padding: 0.5rem;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row{
+	 padding-left:50rem;
+	width:100%;
+}
+
+
+
+
+#d1{
+        display: flex;
+        align-items: center; 
+        width: 6rem;
+        height: 7rem;
+  
+		
+      }
+      #d1 > div {
+        width: 1.5rem;
+        height: 1rem;
+        margin: 0.5rem;
+        
+		position:relative;
+		
+      }
+	  
+.c6{	    
+padding :1rem;
+		
+	   
+	  }
+
+#sec1{
+background:linear-gradient(-45deg,white 30%,yellow 0%);
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+
+
+}
+
+#sec2{
+background:linear-gradient(-45deg,white 30%,lightgreen 0%);
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+}
+
+#sec3{
+background:linear-gradient(-45deg,white 30%,lightblue 0%);
+
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+}
+
+#sec4{
+background:linear-gradient(-45deg,white 30%,tomato 0%);
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+}
+
+#sec5{
+background:linear-gradient(-45deg,white 30%,purple 0%);
+height:100vh;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+
+
+}
+
+#describe{
+font-size: 2rem;
+font-weight: bold;
+font-family: cursive;
+}
+
+.responsive {
+  width: 15rem;
+  height: auto;
+}
+
+
+.logo {
+    float: left;
+    width:  2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+}
+#last{
+	width:70%;
+ height:60%;
+	
+}
+
+
+table{
+
+top:1.5rem;
+text-align:center;
+border: 1px solid black;
+ width:70%;
+ height:60%;
+}
+
+td,th{
+	border: 0.1rem solid black;
+	font-size:1.8rem;
+}
+
+#mypic{
+
+  max-width:15rem;
+    height:auto;
+	width:25rem;
+}
+
+
+.profile {
+  box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2);
+  max-width:40rem;
+  margin:auto;
+  text-align:center;
+  font-family:arial;
+  background-color:blue;
+}
+
+.profile >img{
+	 margin: 1rem 1rem 1rem 1rem;
+  
+}
+
+
+.title {
+  color: grey;
+  font-size: 1.6rem;
+}
+
+.para{
+	font-size: 4.5rem;
+	font-family:cursive;
+}
+
+.bio{
+	font-size: 2.2rem;
+	font-family:cursive;
+}
+
+#clg_name{
+	 font-size: 1.6rem;
+}
+
+
+
+#my_name{
+	 font-size: 2rem;
+}
+#linkToCV{
+	color:red;
+	font-size: 1.5rem;
+}
+#table_title
+{
+	 font-size: 2.2rem;
+}
+
+
+#link_to_clg
+{
+	 font-size: 2.2rem;
+}
+
+
+#txt{
+height:auto;
+width:100%;
+top:0;
+
+ font-size:1.8rem;
+
+background:cyan;
+text-align:center;
+content-align:center;
+position:fixed;
+
+}
+
+
+.navbar.second-navbar {
+  margin-top: 4.5rem;
+  background: grey !important;
+  transition: all .5s ease-in-out;
+}
+
+.navbar.second-navbar.top-nav-collapse {
+  margin-top: 4.5rem;
+}
+
+@media(max-width:1015px){
+	html{
+		font-size:55%;
+	}
+}
+
+@media(max-width:768px){
+	html{
+		font-size:45%;
+	}
+}
+
+@media(max-width:500px){
+	html{
+		font-size:35%;
+	}
+}
+
+@media(max-width:400px){
+	html{
+		font-size:30%;
+	}
+}
+
+
+@media(max-width:300px){
+	html{
+		font-size:25%;
+	}
+}
+
+
+

@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<!--
+Template Name: Academic Education V2
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+-->
+<html>
+<head>
+<title>Publications</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<script src="jquery-3.5.1.min.js"></script>
+
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/meraCSS.css" rel="stylesheet" type="text/css" media="all">
+<script>
+function addRemoveAttr(){
+ var contenteditable = document.getElementById('top').contentEditable;
+ 
+ if(contenteditable == 'inherit' || contenteditable == 'false'){
+   document.getElementById('ea').innerHTML="Leave admin mode";
+  document.getElementById('top').contentEditable = true;
+ }else{
+  document.getElementById('ea').innerHTML="Enter admin mode";
+  document.getElementById('top').contentEditable = false;
+ }
+}
+</script>
+</head>
+<body id="top">
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row0">
+  <div id="topbar" class="clear"> 
+    <!-- ################################################################################################ -->
+    <nav>
+	
+      <ul>
+        
+        
+        <li><button onclick='addRemoveAttr();' id="ea">Enter Admin Mode</button></li>
+		
+      </ul>
+    </nav>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <!-- ################################################################################################ -->
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">Software Engineering Research Center</a></h1>
+       <img src="images/general/logo.jpg" >
+    </div>
+    <div class="fl_right">
+      <img src="images/general/iiit.png" id="iiith">
+    </div>
+    <!-- ################################################################################################ --> 
+  </header>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row2">
+  <div class="rounded">
+    <nav id="mainav" class="clear"> 
+      <!-- ################################################################################################ -->
+      <ul class="clear">
+        <li class="active"><a href="index.html">HOME</a></li>
+        <li><a class="drop" href="#">PEOPLE</a>
+          <ul>
+            <li><a href="faculty.html">Faculty</a></li>
+            <li><a href="phd.html">PhD Students</a></li>
+            <li><a href="ms.html">MS Students</a></li>
+            <li><a href="btech.html">B.Tech. Students</a></li>
+            <li><a href="project interns.html">Project Interns</a></li>
+          </ul>
+        </li>
+        <li><a class="drop" href="#">RESOURCES</a>
+          <ul>
+                 <li><a href="projects.html">Projects</a></li>
+				 <li><a href="teaching.html">Teaching</a></li>
+			     <li><a href="download_useful links.html">Download / Useful Links</a></li>
+			     <li><a href="demos.html">Demos </a></li>
+			     <li><a href="datasets.html">Dataset</a></li>
+				 <li><a href="posters.html">Posters</a></li>
+		
+            
+          </ul>
+        </li>
+        <li><a href="publications.html">PUBLICATIONS</a></li>
+        <li><a href="focus areas.html">FOCUS AREAS</a></li>
+        <li><a href="news.html">NEWS / UPDATES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <!-- ################################################################################################ --> 
+    </nav>
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row3">
+  <div class="rounded">
+    <main class="container clear"> 
+      <!-- main body --> 
+      <!-- ################################################################################################ -->
+      <div class="sidebar one_third first"> 
+        <!-- ################################################################################################ -->
+        <h6>Faculty at SERC</h6>
+        <nav class="sdb_holder">
+          <ul>
+            <li> <a><input type="button" value="Raghu Reddy" id="btn1" /></a></li>
+            <li> <a> <input type="button" value="Venkatesh Choppella" id="btn2" />  </a></li>
+			  <li>  <a><input type="button" value="Vasudeva Varma" id="btn3"> </a><li>
+            <li>  <a><input type="button" value="Ramesh Loganathan" id="btn4" /></a> </li>
+			  <li> <a> <input type="button" value="Kesav V. Nori" id="btn5" /></a></li>
+            <li> <a> <input type="button" value="Viswanath Kasturi" id="btn6" /></a> </li>
+           
+          </ul>
+        </nav>
+      
+   
+        <!-- ################################################################################################ --> 
+      </div>
+      <!-- ################################################################################################ --> 
+      <!-- ################################################################################################ -->
+      <div id="content" class="two_third"> 
+        <!-- ################################################################################################ -->
+        <h1 id="page_title">Publications</h1>
+		 <table >
+      <thead>
+        <tr>
+          <th>Author</th>
+          <th>Title</th>
+          <th>Year</th>
+          <th>Pages</th>
+         
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        
+      </tbody>
+    
+    </table>
+      
+       
+        <!-- ################################################################################################ --> 
+      </div>
+      <!-- ################################################################################################ --> 
+      <!-- / main body -->
+      <div class="clear"></div>
+    </main>
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row4">
+  <div class="rounded">
+    <footer id="footer" class="clear"> 
+      <!-- ################################################################################################ -->
+      <div class="one_third first">
+        <figure class="center"><img class="btmspace-15" src="images/demo/worldmap.png" alt="">
+          <figcaption><a href="contact.html">Find Us With Google Maps &raquo;</a></figcaption>
+        </figure>
+      </div>
+      <div class="one_third">
+        <address>
+        Long Educational Facility Name<br>
+        Address Line 2<br>
+        Town/City<br>
+        Postcode/Zip<br>
+        <br>
+        <i class="fa fa-phone pright-10"></i> xxxx xxxx xxxxxx<br>
+        <i class="fa fa-envelope-o pright-10"></i> <a href="#">contact@domain.com</a>
+        </address>
+      </div>
+      <div class="one_third">
+        <p class="nospace btmspace-10">Stay Up to Date With What's Happening</p>
+        <ul class="faico clear">
+          <li><a class="faicon-twitter" href="https://twitter.com/SERC_IIITH" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a class="faicon-linkedin" href="https://www.linkedin.com/company/serciiith/?originalSubdomain=in" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a class="faicon-facebook" href="https://www.facebook.com/SERC.IIITH/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+         
+        </ul>
+		
+		<!-- 
+        <form class="clear" method="post" action="#">
+          <fieldset>
+            <legend>Subscribe To Our Newsletter:</legend>
+            <input type="text" value="" placeholder="Enter Email Here&hellip;">
+            <button class="fa fa-sign-in" type="submit" title="Sign Up"><em>Sign Up</em></button>
+          </fieldset>
+        </form>  
+		-->
+      </div>
+      <!-- ################################################################################################ --> 
+    </footer>
+  </div>
+</div>
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ --> 
+<!-- ################################################################################################ -->
+<div class="wrapper row5">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <!-- ################################################################################################ --> 
+  </div>
+</div>
+<!-- JAVASCRIPTS --> 
+<script src="layout/scripts/jquery.min.js"></script> 
+<script src="layout/scripts/jquery.fitvids.min.js"></script> 
+<script src="layout/scripts/jquery.mobilemenu.js"></script> 
+<script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
+<script src="layout/scripts/tabslet/jquery.tabslet.min.js"></script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn1').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/r/RaghuReddy.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn2').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/44/7025.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn3').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/03/4045.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn4').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/136/4557.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn5').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/08/11295.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(document).ready(function() {
+        //jQuery on button click Call
+        $('#btn6').click(function () {
+        
+            $('#tableBody').empty();       // Clear the table body.
+            //ajax call to load XML and parse it
+            $.ajax({
+                type: 'GET',
+                url: 'https://dblp.org/pid/39/7116.xml',           // The file path.
+                dataType: 'xml',    
+                success: function(xml) {
+                   //find all book tags, loop them and append to table body
+                    $(xml).find('inproceedings').each(function() {
+                        
+                        // Append new data to the tbody element.
+                        $('#tableBody').append(
+                            '<tr>' +
+                                '<td>' +
+                                    $(this).find('author').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('title').text() + '</td> ' +
+                                '<td>' +
+                                    $(this).find('year').text() + '</td> ' +
+                                    '<td>' +
+                                    $(this).find('pages').text() + '</td> ' +
+                                   
+                            '</tr>');
+                    });
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
